@@ -1,16 +1,15 @@
 {
-    "name": "Data Science Dev Container",
-    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9", // Choose the Python version you need
-    "features": {
-      "python": "latest"
-    },
-    "postCreateCommand": "pip install numpy pandas scipy jupyter matplotlib seaborn scikit-learn",
-    "remoteUser": "vscode",
-    "ports": [
-      8888
-    ],
-    "settings": {
-      "python.pythonPath": "/usr/local/bin/python"
-    }
+  "name": "Data Science Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9", // Choose the Python version you need
+  "features": {
+    "python": "latest"
+  },
+  "postCreateCommand": "pip install numpy pandas scipy jupyter matplotlib seaborn scikit-learn ipykernel && python -m ipykernel install --user --name=python3 --display-name='Python 3'",
+  "remoteUser": "vscode",
+  "ports": [
+    8888
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
   }
-  
+}
