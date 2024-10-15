@@ -1,6 +1,6 @@
 {
   "name": "Data Science Dev Container",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9", // Choose the Python version you need
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
   "features": {
     "python": "latest"
   },
@@ -15,5 +15,8 @@
   "extensions": [
     "ms-toolsai.jupyter",
     "ms-python.python"
+  ],
+  "mounts": [
+    "source=/mnt/c/Python Work,target=/workspace/customer-conversion-drivers,type=bind"
   ]
 }
