@@ -16,6 +16,3 @@ Thumbs.db
 
 # Pip dependency files
 pip-log.txt
-
-# Jupyter Notebook
-*.ipynb
