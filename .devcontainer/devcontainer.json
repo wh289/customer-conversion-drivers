@@ -18,6 +18,6 @@
   ],
   "mounts": [
     "source=/mnt/c/Python Work,target=/workspace/customer-conversion-drivers,type=bind",
-    "source=/home/wh289/.ssh,target=/home/vscode/.ssh,type=bind"
+    "type=bind,source=${localEnv:HOME}/.ssh,target=/vscode/.ssh,readonly",
   ]
 }
