@@ -4,13 +4,13 @@
   "features": {
     "python": "latest"
   },
-  "postCreateCommand": "pip install numpy pandas scipy jupyter matplotlib seaborn scikit-learn ipykernel && python -m ipykernel install --user --name=python3 --display-name='Python 3'",
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt && python -m ipykernel install --user --name=python3 --display-name='Python 3'",
   "remoteUser": "vscode",
   "ports": [
     8888
   ],
   "settings": {
-    "python.pythonPath": "/usr/local/bin/python"
+    "python.pythonPath": "/workspace/customer-conversion-drivers/.venv/bin/python"
   },
   "extensions": [
     "ms-toolsai.jupyter",
