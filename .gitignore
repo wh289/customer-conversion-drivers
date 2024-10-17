@@ -6,6 +6,7 @@ venv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/jupyter_test-checkpoint.ipynb
 
 # Log files
 *.log
@@ -16,3 +17,4 @@ Thumbs.db
 
 # Pip dependency files
 pip-log.txt
+
