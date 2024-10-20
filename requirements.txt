@@ -1,8 +1,0 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost==2.0.3
-setuptools>=40.1.0
-jupyter==1.0.0
