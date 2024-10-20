@@ -4,8 +4,8 @@
   "features": {
     "python": "latest"
   },
-  "postCreateCommand": "python -m venv .venv && .venv/bin/python -m pip install --upgrade pip setuptools wheel && .venv/bin/python -m pip install -r requirements.txt && .venv/bin/python -m ipykernel install --user --name=python3 --display-name='Python 3'",
   "remoteUser": "vscode",
+  "postCreateCommand": "pip install poetry && poetry install && poetry run python -m ipykernel install --user --name=python3 --display-name='Python 3'",
   "ports": [
     8888
   ],
@@ -18,7 +18,6 @@
   ],
   "mounts": [
     "source=${localWorkspaceFolder},target=/workspace/customer-conversion-drivers,type=bind",
-    //"type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,readonly"
-    //"type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh,readonly"
+    "type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,readonly"
   ]
 }
