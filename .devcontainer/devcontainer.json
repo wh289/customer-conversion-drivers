@@ -19,6 +19,6 @@
   "mounts": [
     "source=${localWorkspaceFolder},target=/workspace/customer-conversion-drivers,type=bind",
     //"type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,readonly"
-    "type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh,readonly"
+    //"type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh,readonly"
   ]
 }
