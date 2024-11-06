@@ -20,3 +20,6 @@ pip-log.txt
 
 #feature importance outputs
 feature_importance.png
+
+# Metaflow
+.metaflow

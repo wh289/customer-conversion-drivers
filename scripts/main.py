@@ -6,7 +6,7 @@ from data_split import split_data
 from model_training import train_model
 from hyperparameter_tuning import tune_hyperparameters
 from evaluate_model import evaluate_model
-from plot_feature_importance import plot_feature_importance
+from feature_importance import save_feature_importance
 import joblib
 
 def main():
@@ -46,10 +46,10 @@ def main():
     print("Evaluating model...")
     evaluate_model(model, X_test, y_test)
     
-    # Step 9: Plot feature importance
+    # Step 9: Save feature importance
     feature_names = X_train.columns
-    print("Plotting feature importance...")
-    plot_feature_importance(model, feature_names)
+    print("Saving feature importance...")
+    save_feature_importance(model, feature_names, csv_path="models/feature_importance.csv", img_path="models/feature_importance.png")
     
     # Step 10: Save the trained model
     joblib.dump(model, 'xgboost_churn_model.pkl')
