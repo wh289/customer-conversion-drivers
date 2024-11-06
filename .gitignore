@@ -18,3 +18,5 @@ Thumbs.db
 # Pip dependency files
 pip-log.txt
 
+#feature importance outputs
+feature_importance.png
