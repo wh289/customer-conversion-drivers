@@ -11,7 +11,7 @@ import joblib
 
 def main():
     # Filepath to the dataset
-    filepath = "/workspace/customer-conversion-drivers/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+    filepath = "/workspace/customer-conversion-drivers/data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
     
     # Step 1: Load data
     print("Loading data...")

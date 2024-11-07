@@ -17,7 +17,7 @@ from data_split import split_data
 class ChurnFlow(FlowSpec):
 
     # Define parameters
-    data_path = Parameter('data_path', default="/workspace/customer-conversion-drivers/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    data_path = Parameter('data_path', default="/workspace/customer-conversion-drivers/data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
     model_path = Parameter('model_path', default="models/xgboost_churn_model.pkl")
     importance_path = Parameter('importance_path', default="models/feature_importance.csv")
 
