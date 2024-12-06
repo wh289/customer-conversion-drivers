@@ -1,9 +1,9 @@
-from data_loading import load_data
-from data_cleaning import clean_data
+from data_loading import load_data, clean_data
+#from data_cleaning import clean_data
 from data_viz import visualize_data
 from feature_engineering import engineer_features
-from data_split import split_data
-from model_training import train_model
+from data_split import split_data, train_model
+#from model_training import train_model
 from hyperparameter_tuning import tune_hyperparameters
 from evaluate_model import evaluate_model
 from feature_importance import save_feature_importance

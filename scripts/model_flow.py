@@ -4,14 +4,14 @@ from sklearn.model_selection import train_test_split
 import joblib
 from xgboost import XGBClassifier
 
-from data_loading import load_data
-from data_cleaning import clean_data
+from data_loading import load_data, clean_data
+#from data_cleaning import clean_data
+#from model_training import train_model
 from feature_engineering import engineer_features
-from model_training import train_model
 from evaluate_model import evaluate_model
 from feature_importance import save_feature_importance
 from hyperparameter_tuning import tune_hyperparameters
-from data_split import split_data
+from data_split import split_data, train_model
 
 
 class ChurnFlow(FlowSpec):
