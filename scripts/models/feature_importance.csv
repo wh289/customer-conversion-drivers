@@ -7,21 +7,21 @@ Contract_One year,22.0
 PaperlessBilling,20.0
 Contract_Month-to-month,19.0
 OnlineSecurity,19.0
-TechSupport,15.0
-SeniorCitizen,15.0
 StreamingMovies,15.0
+SeniorCitizen,15.0
+TechSupport,15.0
 MultipleLines,15.0
 PaymentMethod_Bank transfer (automatic),14.0
 gender_Female,13.0
 OnlineBackup,12.0
-Contract_Two year,12.0
 InternetService_Fiber optic,12.0
-PhoneService,10.0
+Contract_Two year,12.0
 InternetService_No,10.0
+PhoneService,10.0
 Dependents,7.0
+StreamingTV,6.0
 DeviceProtection,6.0
 Partner,6.0
 InternetService_DSL,6.0
-StreamingTV,6.0
 PaymentMethod_Credit card (automatic),5.0
 PaymentMethod_Mailed check,3.0

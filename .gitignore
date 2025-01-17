@@ -23,3 +23,6 @@ feature_importance.png
 
 # Metaflow
 .metaflow
+
+# Ignore pychache
+scripts/__pycache__
